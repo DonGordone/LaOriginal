@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: aquamarine;
+}
+.title_name {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.nav_container {
+    border: 1px solid black;
+    margin: 0 15px;
+    border-radius: 5px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav ol {
+    display: flex;
+    list-style-type: none;
+}
+.nav span {
+    border-radius: 3px;
+    padding: 6px;
+}
+li {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 10px;
+    font-size: 20px; 
+}
+li:nth-of-type(1) {
+    text-decoration: underline;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover span:hover {
+    /* color: white; */
+    text-decoration: underline;
+    /* background-color: black; */
+    transition: all .3s ;
+  }
+
+.borders {
+    border-left: 1px solid black;
+}
