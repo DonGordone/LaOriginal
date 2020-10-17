@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -14,13 +16,79 @@
     
     </div>
     <div class="contain">
-        <div class="menu"></div>
+        <div class="menu">
+            <section>
+                <h1>Paquetes</h1>
+            </section>
+            <section>
+                <h2>Todo incluido 100.</h2>
+            </section>
+            <section>
+                <h3>
+                    $5,000
+                </h3>
+            </section>
+            <section>
+                <ul>
+                    <li>Barbacoa</li>
+                    <li>Frijoles puercos</li>
+                    <li>Sopa verde</li>
+                    <li>Desechable</li>
+                    <li>Muchacha para servir</li>
+                    <li>Mesero</li>
+                </ul>
+            </section>
+            <section>
+                <h2>
+                    Taquiza para 50 personas.
+                </h2>
+            </section>
+            <section>
+                <h3>
+                    $2,500
+                </h3>
+            </section>
+            <section>
+                <ul>
+                    <li>3 guisos</li>
+                    <li>1 guiso de frijol</li>
+                    <li>Guarnicion</li>
+                    <li>2 quesitos</li>
+                    <li>Tortillas hechas a mano</li>
+                    <li>Desechables</li>
+                    <li>Muchacha para servir</li>
+                    <li>1 Vitrolero de agua de sabor (18 lts)</li>
+                </ul>
+            </section>
+            <section>
+                <h4>
+                    Platillo de barbacoa $50 por persona.
+                </h4>
+                <h4>
+                    La taquiza se maneja de 50 personas en adelante.
+                </h4>
+            </section>
+        </div>
         <div class="contact">
             <h1>Contactanos</h1>
+            <form id="contact-form" class="contactF" name="contact-form" method="post" action="mailRequest.php">
+                <div class="form-group">
+                    <input type="text" name="nombre" class="form-control name-field" required="required" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="telefono" required="required" class="form-control" placeholder="Telefono">
+                </div>
+                <div>
+                    <button type="submit" class="bt bt-primary">Contactenme</button>
+                </div>
+            </form>
+            <!-- <section><input type="text"></section>
             <section><input type="text"></section>
             <section><input type="text"></section>
-            <section><input type="text"></section>
-            <section><button>Enviar</button></section>
+            <section><button>Enviar</button></section> -->
         </div>
         <div class="contact2">
             <section>
@@ -28,7 +96,7 @@
                 <p>6691234567</p>
             </section>
             <section>
-                <a href=""><p>laoriginal@hotmail.com</p></a>
+                <a href="mailto:mocn2_13@hotmail.com"><p>laoriginal@hotmail.com</p></a>
             </section>
         </div>
     </div>

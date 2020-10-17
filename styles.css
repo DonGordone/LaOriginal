@@ -10,6 +10,7 @@
 .contain {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    font-family: 'Work Sans', sans-serif;
     
 }
 
@@ -18,12 +19,17 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    border-right: 1px solid black;
+    margin: 25px 0;
+    margin-left: 50px;
 }
 
 .contact {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr;
+    grid-template: 1fr 1fr  / 1fr;
     text-align: center;
+    margin: 0 25px;
+    border-bottom: 1px solid black;
 } 
 .contact section {
     display: flex;
@@ -31,7 +37,8 @@
     height: fit-content;
 }
 .contact h1 {
-    margin: 10px 0
+    align-self: center;
+    margin: 10px 0;
 }
 
 .contact input {
@@ -43,14 +50,14 @@
     display: flex;
 }
 .contact2 img {
-    width: 15%;
+    width: 10%;
 }
 .contact2 p {
     margin-left: 25px;
-    font-size: 50px;
+    font-size: 35px;
 }
 .contact2 section:nth-of-type(2) p {
-    font-size: 35px;
+    font-size: 30px;
 }
 .contact2 section:nth-of-type(2) a {
     text-decoration: none;
@@ -58,4 +65,8 @@
 }
 .contact2 section:nth-of-type(2) a:hover {
     text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 10px;
 }
