@@ -10,7 +10,7 @@ $header .= "Content-Type: text/plain";
 
 $mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
 $mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Su telefono es:" . $telefono . " \r\n";
+$mensaje .= "Mensaje:" . $_POST['telefono'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $para = 'mocn2_13@hotmail.com';
