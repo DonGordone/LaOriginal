@@ -48,3 +48,64 @@ li a {
 .borders {
     border-left: 1px solid black;
 }
+.image_container {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.image_container img{
+    object-fit: cover;
+}
+
+.contain {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    
+}
+
+.menu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.contact {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr;
+    text-align: center;
+} 
+.contact section {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.contact h1 {
+    margin: 10px 0
+}
+
+.contact input {
+    width: 60%;
+}
+
+.contact2 section {
+    justify-content: center;
+    display: flex;
+}
+.contact2 img {
+    width: 15%;
+}
+.contact2 p {
+    margin-left: 25px;
+    font-size: 50px;
+}
+.contact2 section:nth-of-type(2) p {
+    font-size: 35px;
+}
+.contact2 section:nth-of-type(2) a {
+    text-decoration: none;
+    color: black;
+}
+.contact2 section:nth-of-type(2) a:hover {
+    text-decoration: underline;
+}
