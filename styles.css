@@ -1,8 +1,12 @@
+* {
+    color: #F47E01;
+}
 body {
     margin: 0;
+    background-color: #e5e5e5;
 }
 header {
-    background-color: aquamarine;
+    background-color: #131313;
 }
 .title_name {
     font-family: 'Work Sans', sans-serif;
@@ -13,6 +17,7 @@ header {
     border: 1px solid black;
     margin: 0 15px;
     border-radius: 5px;
+    border-bottom: none;
 }
 .nav {
     display: flex;
@@ -32,7 +37,7 @@ li {
     font-size: 20px; 
 }
 .nav li:nth-of-type(1) {
-    text-decoration: underline;
+    text-decoration: underline #F47E01;
 }
 li a {
     text-decoration: none;
@@ -46,12 +51,13 @@ li a {
   }
 
 .borders {
-    border-left: 1px solid black;
+    border-left: 1px solid white;
 }
 .image_container {
     display: flex;
     justify-content: center;
     height: 550px;
+    margin-top: 10px;
 }
 .image_container img{
     object-fit: cover;
@@ -59,13 +65,13 @@ li a {
 
 .contain {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
     font-family: 'Work Sans', sans-serif;
     
 }
 
 .menu {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
@@ -73,10 +79,15 @@ li a {
     margin: 25px 0;
     margin-left: 50px;
 }
+.title-packets {
+    list-style-type: circle;
+}
 
 .contact {
     display: grid;
     grid-template: 1fr 1fr  / 1fr;
+    grid-column-end: 4;
+    grid-column-start: 3;
     text-align: center;
     margin: 0 25px;
     border-bottom: 1px solid black;
@@ -93,6 +104,12 @@ li a {
 
 .contact input {
     width: 60%;
+}
+
+.contact2 {
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-column-start: 3;
 }
 
 .contact2 section {
@@ -116,8 +133,14 @@ li a {
 .contact2 section:nth-of-type(2) a:hover {
     text-decoration: underline;
 }
+.bt {
+    border-radius: 16px;
+    border: 1px solid #ccc!important;
+    color: #000!important;
+    background-color: #fff!important;
+}
 .footer {
-    background-color: aquamarine;
+    background-color: white;
     width: 100%;
     position: absolute;
 }
