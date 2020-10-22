@@ -19,6 +19,10 @@ header {
     display: none;
 }
 
+.nav_btn_display {
+    display: none;
+}
+
 .nav_container {
     border: 1px solid black;
     margin: 0 15px;
@@ -307,6 +311,11 @@ li a {
 }
 
 @media screen and (max-width: 480px) {
+    
+    .menu {
+        border: none;
+    }
+    
     .contain {
         display: block;
     }
@@ -314,6 +323,10 @@ li a {
     .contact {
         padding-bottom: 30px;
         border-top: 1px solid;
+    }
+
+    .nav_btn_display:active {
+        display: block;
     }
 }
 
