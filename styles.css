@@ -1,9 +1,9 @@
 * {
-    color: #F47E01;
+    /* color: #000; */
 }
 body {
     margin: 0;
-    background-color: #e5e5e5;
+    background-color: #fff;
 }
 header {
     background-color: #131313;
@@ -31,6 +31,15 @@ header {
     border-radius: 3px;
     padding: 6px;
 }
+
+.header h1 {
+    color: #F47E01;
+}
+
+.header a {
+    color: #F47E01;
+}
+
 li {
     font-family: 'Work Sans', sans-serif;
     margin: 0 10px;
@@ -141,7 +150,7 @@ li a {
     background-color: #fff!important;
 }
 .footer {
-    background-color: white;
+    background-color: #E5E5E5;
     width: 100%;
     position: absolute;
 }
