@@ -8,10 +8,14 @@ body {
 header {
     background-color: #131313;
 }
+
 .title_name {
-    font-family: 'Work Sans', sans-serif;
     display: flex;
     justify-content: center;
+}
+
+.title_name img {
+    width: 25%;
 }
 .nav_container {
     border: 1px solid black;
@@ -30,6 +34,7 @@ header {
 .nav span {
     border-radius: 3px;
     padding: 6px;
+    font-family: 'Fredoka One', cursive;
 }
 
 .header h1 {
@@ -89,8 +94,13 @@ li a {
     margin: 25px 0;
     margin-left: 50px;
 }
+
+.menu h1 {
+    font-family: 'Source Code Pro', monospace;
+}
 .title-packets {
     list-style-type: circle;
+    font-family: 'Noto Sans HK', sans-serif;
 }
 
 .contact {
@@ -102,6 +112,37 @@ li a {
     margin: 0 25px;
     border-bottom: 1px solid black;
 } 
+
+.name-field {
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/1250/1250253.svg);
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: white;
+    height: 30px;
+    background-size: 26px;
+}
+
+.mail-field {
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/646/646176.svg);
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: white;
+    height: 30px;
+    background-size: 26px;
+}
+
+.phone-field {
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/977/977258.svg);
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: white;
+    height: 30px;
+    background-size: 26px;
+}
+
 .contact section {
     display: flex;
     justify-content: center;
@@ -144,11 +185,32 @@ li a {
     text-decoration: underline;
 }
 .bt {
-    border-radius: 16px;
-    border: 1px solid #ccc!important;
-    color: #000!important;
-    background-color: #fff!important;
+    box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
 }
+
+.bt:hover {
+    background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+
+.bt:active {
+    position:relative;
+	top:1px;
+}
+
 .footer {
     background-color: #E5E5E5;
     width: 100%;

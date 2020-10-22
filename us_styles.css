@@ -24,6 +24,7 @@
     justify-content: center;
     grid-column-start: 3;
     grid-column-end: 4;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /*  */
@@ -44,6 +45,7 @@
 
 .mv h1 {
     font-size: xx-large;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .mv p {
