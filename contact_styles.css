@@ -1,0 +1,85 @@
+.head_message_container {
+ /* background-image: url("https://i.imgur.com/YYtbMDM.jpg"); */
+    display: flex;
+    justify-content: center;
+    /* background: #E5E5E5; */
+}
+
+.message_container {
+    align-items: center;
+    padding: 15px;
+    background: #E5E5E5;
+    width: 50%;
+    margin: 40px;
+    box-shadow: 0px 0px 33px 1px rgba(0,0,0,0.69);
+}
+
+.message {
+    text-align: center;
+}
+
+.message h4 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.message_title {
+    text-align: center;
+}
+
+.message_title h3 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.info_container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    margin: 5%;
+}
+
+.info_icons_container {
+    display: block;
+}
+
+.info_icons_container:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.info_title {
+    text-align: center;
+}
+
+.info_icons_container img {
+    width: 25%;
+}
+
+.icons_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons_nav  h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.icons_nav  h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.map_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.map {
+    box-shadow: 0px 0px 33px 1px rgba(0,0,0,0.69);
+}
