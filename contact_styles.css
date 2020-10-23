@@ -107,9 +107,30 @@
 }
 
 @media screen and (max-width:480px) {
-    
+    .message_container {
+        width: 90%;
+        margin: 15px;
+    }
+
+    .message_title h3 {
+        font-size: 44px;
+    }
+
+    .message h4 {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width:320px) {
-    
+    .message_container {
+        margin: 0;
+    }
+
+    .message_title h3 {
+        font-size: 51px;
+    }
+
+    .message h4 {
+        font-size: 21px;
+    }
 }
