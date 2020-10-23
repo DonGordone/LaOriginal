@@ -175,10 +175,11 @@ li a {
     display: flex;
 }
 .contact2 img {
+    margin-right: 15px;
     width: 10%;
 }
 .contact2 p {
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 35px;
 }
 .contact2 section:nth-of-type(2) p {
@@ -243,6 +244,15 @@ li a {
     margin-bottom: 10px;
 }
 
+#btn-menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+
 
 /* MEDIA QUERIES */
 
@@ -281,7 +291,7 @@ li a {
 @media screen and (max-width: 768px) {
     
     .title_name img {
-        width: 40%;
+        width: 60%;
     }
     
     .nav_container {
@@ -305,9 +315,34 @@ li a {
         width: 100%;
     }
 
-    .nav_btn:active {
-
+    .nav_container {
+        display: none;
     }
+
+    .nav ol {
+        display: block;
+        
+    }
+
+    .nav li {
+        padding: 15px;
+    }
+
+    .borders {
+        border-left: none;
+    }
+
+    .hamburger {
+        position: sticky;
+        display: inline-block;
+        margin: 10px 0px 0px 10px;
+    }
+
+    #btn-menu:checked ~ .nav_container {
+        display: block;
+    }
+
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -325,15 +360,24 @@ li a {
         border-top: 1px solid;
     }
 
-    .nav_btn_display:active {
+    .nav_btn:hover .nav_btn_display {
         display: block;
+    }
+
+    .nav_btn_display li {
+        list-style: none;
+    }
+    
+    .title_name img {
+        width: 80%;
+    }
+
+    .hamburger {
+        padding: 10px 10px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .title_name img {
-        width: 60%;
-    }
 
     .menu {
         margin: 0 0 0 15px;

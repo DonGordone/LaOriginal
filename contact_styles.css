@@ -83,3 +83,33 @@
 .map {
     box-shadow: 0px 0px 33px 1px rgba(0,0,0,0.69);
 }
+
+/* MQ */
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+    .message_container {
+        width: 80%;
+    }
+
+    .info_container {
+        display: block;
+    }
+
+    .info_icons_container:nth-child(2) {
+        border: none;
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+}
+
+@media screen and (max-width:320px) {
+    
+}

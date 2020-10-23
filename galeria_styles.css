@@ -142,3 +142,33 @@
     border-radius: 50%;
     line-height: 25px;
 }
+
+/* MQ */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .galeria_container {
+        display: block;
+        height: unset;
+        padding: 5%;
+    }
+
+    .galerias {
+        margin: 25px;
+    }
+
+    .footer {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}

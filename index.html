@@ -6,30 +6,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hamburgers.css">
     <link rel="stylesheet" href="styles.css">
-    
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <div class="nav_btn_container">
-            <button class="nav_btn">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/545/545705.svg" alt="">
-                <nav class="nav_btn_display">
-                    <ol>
-                        <li>epa</li>
-                        <li>epa</li>
-                        <li></li>
-                        <li></li>
-                    </ol>
-                </nav>
-            </button>
-        </div>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="hamburger hamburger--arrowturn">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </label>  
         <div class="title_name">
             <img src="https://i.imgur.com/4hlloiv.png" alt="">
         </div>
         <div class="nav_container">
-            <nav class="nav">
+            <nav class="nav navigation">
                 <ol>
                     <li><a href="index.html"><span>incio</span></a></li>
                     <li class="borders"></li>
@@ -152,5 +145,24 @@
             <p>Somos la mejor cocina</p>
         </div>
     </footer>
+    <script>
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+        // On click
+        hamburger.addEventListener("click", function() {
+          // Toggle class "is-active"
+          hamburger.classList.toggle("is-active");
+          // Do something else, like open/close menu
+        });
+
+        // Look for .hamburger
+        var navigation = document.querySelector(".navigation");
+        // On click
+        navigation.addEventListener("click", function() {
+          // Toggle class "is-active"
+          navigation.classList.toggle("is-active");
+          // Do something else, like open/close menu
+        });
+      </script>
 </body>
 </html>
