@@ -95,9 +95,17 @@
     .porpose p {
         text-align: center;
     }
+    
+    .mv {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .mv p {
+        padding: 0;
+        font-size: 20px;
+    }
 
 }
 
