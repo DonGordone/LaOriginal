@@ -382,4 +382,12 @@ li a {
     .menu {
         margin: 0 0 0 15px;
     }
+
+    .contact2 div:nth-of-type(2) p {
+        font-size: 22px;
+    }
+
+    .title_name img {
+        width: 325px;
+    }
 }
