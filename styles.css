@@ -12,6 +12,7 @@ header {
 }
 
 .title_name img {
+    height: auto;
     width: 25%;
 }
 
