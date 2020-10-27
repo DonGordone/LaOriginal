@@ -12,8 +12,7 @@ header {
 }
 
 .title_name img {
-    height: auto;
-    width: 25%;
+    width: 340px;
 }
 
 .nav_btn_container {
@@ -292,7 +291,7 @@ li a {
 @media screen and (max-width: 768px) {
     
     .title_name img {
-        width: 60%;
+        width: 460px;
     }
     
     .nav_container {
@@ -370,7 +369,7 @@ li a {
     }
     
     .title_name img {
-        width: 80%;
+        width: 384px;
     }
 
     .hamburger {
