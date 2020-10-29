@@ -170,11 +170,17 @@ li a {
     grid-column-start: 3;
 }
 
-.contact2 div {
+.contact2_divs {
+    align-items: center;
     justify-content: center;
     display: flex;
 }
-.contact2 img {
+
+.contact2_mail {
+    margin-left: 10px;
+}
+
+.contact2_img {
     margin-right: 15px;
     width: 10%;
 }
@@ -275,7 +281,7 @@ li a {
         justify-content: center;
     }
 
-    .contact2 img {
+    .contact2_img {
         width: 8%;
     }
 
@@ -340,6 +346,10 @@ li a {
 
     #btn-menu:checked ~ .nav_container {
         display: block;
+    }
+
+    .contact2_mail {
+        margin-left: none;
     }
 
     
