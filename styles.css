@@ -54,7 +54,7 @@ header {
 li {
     font-family: 'Work Sans', sans-serif;
     margin: 0 10px;
-    font-size: 20px; 
+    font-size: 20px;
 }
 /* .nav li:nth-of-type(1) {
     text-decoration: underline #F47E01;
@@ -100,7 +100,7 @@ li a {
     grid-template: 1fr / repeat(3, 1fr);
     font-family: 'Work Sans', sans-serif;
     margin: 0 50px 30px;
-    
+
 }
 
 .menu_50 {
@@ -116,61 +116,6 @@ li a {
     list-style-type: circle;
     font-family: 'Noto Sans HK', sans-serif;
 }
-
-/* .contact {
-    display: grid;
-    grid-template: 1fr 1fr  / 1fr;
-    grid-column-end: 4;
-    grid-column-start: 3;
-    text-align: center;
-    margin: 0 25px;
-    border-bottom: 1px solid black;
-}  */
-
-/* .name-field {
-    background-image: url(https://www.flaticon.com/svg/static/icons/svg/1250/1250253.svg);
-    background-position: 3px 3px;
-    background-repeat: no-repeat;
-    padding-left: 35px;
-    background-color: white;
-    height: 30px;
-    background-size: 26px;
-} */
-
-/* .mail-field {
-    background-image: url(https://www.flaticon.com/svg/static/icons/svg/646/646176.svg);
-    background-position: 3px 3px;
-    background-repeat: no-repeat;
-    padding-left: 35px;
-    background-color: white;
-    height: 30px;
-    background-size: 26px;
-} */
-
-/* .phone-field {
-    background-image: url(https://www.flaticon.com/svg/static/icons/svg/977/977258.svg);
-    background-position: 3px 3px;
-    background-repeat: no-repeat;
-    padding-left: 35px;
-    background-color: white;
-    height: 30px;
-    background-size: 26px;
-} */
-
-/* .contact section {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-} */
-
-/* .contact h1 {
-    align-self: center;
-    margin: 10px 0;
-} */
-
-/* .contact input {
-    width: 60%;
-} */
 
 .contact2 {
     display: flex;
@@ -303,19 +248,19 @@ li a {
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .title_name img {
         width: 460px;
     }
-    
+
     .nav_container {
         display: none;
     }
-    
+
     .nav_btn_container {
         display: block;
     }
-    
+
     .nav_btn {
         top: 13px;
         width: 40px;
@@ -335,7 +280,7 @@ li a {
 
     .nav ol {
         display: block;
-        
+
     }
 
     .nav li {
@@ -360,15 +305,15 @@ li a {
         margin-left: none;
     }
 
-    
+
 }
 
 @media screen and (max-width: 480px) {
-    
+
     .menu {
         border: none;
     }
-    
+
     .contain {
         display: block;
     }
@@ -385,7 +330,7 @@ li a {
     .nav_btn_display li {
         list-style: none;
     }
-    
+
     .title_name img {
         width: 384px;
     }
